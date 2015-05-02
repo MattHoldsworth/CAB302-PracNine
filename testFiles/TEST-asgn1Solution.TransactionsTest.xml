@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="queensla-708764" name="asgn1Solution.TransactionsTest" tests="25" time="0.11" timestamp="2010-05-03T11:12:24">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.boot.library.path" value="c:\Program Files\Java\jdk1.6.0\jre\bin" />
+    <property name="java.vm.version" value="1.6.0-b105" />
+    <property name="ant.library.dir" value="f:/apache-ant-1.7.1/lib" />
+    <property name="ant.version" value="Apache Ant version 1.7.1 compiled on June 27 2008" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="path.separator" value=";" />
+    <property name="doc" value="src/doc" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="user.country" value="AU" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.os.patch.level" value="Service Pack 2" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="user.dir" value="c:\Documents and Settings\hogan\Desktop\ActiveTeaching\INB370-2010\Lectures\Week10 - Integrated Build\Exercise" />
+    <property name="testBase" value="testFiles" />
+    <property name="java.runtime.version" value="1.6.0-b105" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="basedir" value="c:\Documents and Settings\hogan\Desktop\ActiveTeaching\INB370-2010\Lectures\Week10 - Integrated Build\Exercise" />
+    <property name="packageQuest" value="asgn1Question" />
+    <property name="java.endorsed.dirs" value="c:\Program Files\Java\jdk1.6.0\jre\lib\endorsed" />
+    <property name="os.arch" value="x86" />
+    <property name="java.io.tmpdir" value="c:\DOCUME~1\hogan\LOCALS~1\Temp\" />
+    <property name="ant.core.lib" value="f:\apache-ant-1.7.1\lib\ant.jar" />
+    <property name="line.separator" value="
+" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="user.variant" value="" />
+    <property name="os.name" value="Windows XP" />
+    <property name="ant.home" value="f:/apache-ant-1.7.1" />
+    <property name="ant.project.name" value="exercise" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="cygwin.user.home" value="c:/Documents and Settings/hogan" />
+    <property name="base" value="artifacts" />
+    <property name="java.library.path" value="c:\Program Files\Java\jdk1.6.0\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\cygwin\usr\local\bin;C:\cygwin\bin;C:\cygwin\bin;C:\cygwin\usr\X11R6\bin;c:\Program Files\MiKTeX 2.7\miktex\bin;c:\WINDOWS\system32;c:\WINDOWS;c:\WINDOWS\System32\Wbem;c:\Program Files\QuickTime\QTSystem\;c:\Program Files\MATLAB\R2007b\bin;c:\Program Files\MATLAB\R2007b\bin\win32;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;f:\apache-ant-1.7.1\bin;c:\Program Files\Java\jdk1.6.0\bin;c:\Program Files\TortoiseSVN\bin;f:\apache-maven-2.2.1\bin;c:\Program Files\Google\google_appengine\;C:\cygwin\lib\lapack" />
+    <property name="java.class.version" value="50.0" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="ant.file.exercise" value="c:\Documents and Settings\hogan\Desktop\ActiveTeaching\INB370-2010\Lectures\Week10 - Integrated Build\Exercise\build.xml" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="os.version" value="5.1" />
+    <property name="ant.file" value="c:\Documents and Settings\hogan\Desktop\ActiveTeaching\INB370-2010\Lectures\Week10 - Integrated Build\Exercise\build.xml" />
+    <property name="user.home" value="C:\Documents and Settings\hogan" />
+    <property name="user.timezone" value="" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="user.name" value="hogan" />
+    <property name="java.class.path" value="f:/apache-ant-1.7.1/lib/ant-launcher.jar;c:\Documents and Settings\hogan\Desktop\ActiveTeaching\INB370-2010\Lectures\Week10 - Integrated Build\Exercise\.\;c:\Program Files\QuickTime\QTSystem\QTJava.zip;f:\apache-ant-1.7.1\lib\ant-antlr.jar;f:\apache-ant-1.7.1\lib\ant-apache-bcel.jar;f:\apache-ant-1.7.1\lib\ant-apache-bsf.jar;f:\apache-ant-1.7.1\lib\ant-apache-log4j.jar;f:\apache-ant-1.7.1\lib\ant-apache-oro.jar;f:\apache-ant-1.7.1\lib\ant-apache-regexp.jar;f:\apache-ant-1.7.1\lib\ant-apache-resolver.jar;f:\apache-ant-1.7.1\lib\ant-commons-logging.jar;f:\apache-ant-1.7.1\lib\ant-commons-net.jar;f:\apache-ant-1.7.1\lib\ant-jai.jar;f:\apache-ant-1.7.1\lib\ant-javamail.jar;f:\apache-ant-1.7.1\lib\ant-jdepend.jar;f:\apache-ant-1.7.1\lib\ant-jmf.jar;f:\apache-ant-1.7.1\lib\ant-jsch.jar;f:\apache-ant-1.7.1\lib\ant-junit.jar;f:\apache-ant-1.7.1\lib\ant-launcher.jar;f:\apache-ant-1.7.1\lib\ant-netrexx.jar;f:\apache-ant-1.7.1\lib\ant-nodeps.jar;f:\apache-ant-1.7.1\lib\ant-starteam.jar;f:\apache-ant-1.7.1\lib\ant-stylebook.jar;f:\apache-ant-1.7.1\lib\ant-swing.jar;f:\apache-ant-1.7.1\lib\ant-testutil.jar;f:\apache-ant-1.7.1\lib\ant-trax.jar;f:\apache-ant-1.7.1\lib\ant-weblogic.jar;f:\apache-ant-1.7.1\lib\ant.jar;f:\apache-ant-1.7.1\lib\junit.jar;f:\apache-ant-1.7.1\lib\xercesImpl.jar;f:\apache-ant-1.7.1\lib\xml-apis.jar;c:\Program Files\Java\jdk1.6.0\lib\tools.jar" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="java.home" value="c:\Program Files\Java\jdk1.6.0\jre" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="user.language" value="en" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="java.version" value="1.6.0" />
+    <property name="java.ext.dirs" value="c:\Program Files\Java\jdk1.6.0\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="junitJar" value="F:/junit4.5/junit-4.5.jar" />
+    <property name="sun.boot.class.path" value="c:\Program Files\Java\jdk1.6.0\jre\lib\resources.jar;c:\Program Files\Java\jdk1.6.0\jre\lib\rt.jar;c:\Program Files\Java\jdk1.6.0\jre\lib\sunrsasign.jar;c:\Program Files\Java\jdk1.6.0\jre\lib\jsse.jar;c:\Program Files\Java\jdk1.6.0\jre\lib\jce.jar;c:\Program Files\Java\jdk1.6.0\jre\lib\charsets.jar;c:\Program Files\Java\jdk1.6.0\jre\classes" />
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="file.separator" value="\" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="deploy" value="C:/Warehouse" />
+    <property name="sun.desktop" value="windows" />
+    <property name="packageSol" value="asgn1Solution" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+  </properties>
+  <testcase classname="asgn1Solution.TransactionsTest" name="WarehouseLedgerConstructed" time="0.016" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="JobCompletionInitialised" time="0.0" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="OrderFulfillmentInitialised" time="0.0" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="InsolvencyStatusInitialised" time="0.015" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="NegativeWarehouseCapacity" time="0.0" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="NegativeJobDuration" time="0.0" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="ZeroJobDuration" time="0.0" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="ZeroWarehouseCapacity" time="0.0" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="SingleDayJob" time="0.0" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="WarehouseTransactionsConstructed" time="0.0" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="NegativeWholesalePurchase" time="0.0" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="NegativeWholesalePurchaseWithRestocking" time="0.0" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="DaysProgressNormally" time="0.0" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="DaysProgressNormallyWithRestocking" time="0.0" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="RunningOutOfStock" time="0.0" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="RunningOutOfStockWithRestocking" time="0.0" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="RunningOutOfCash" time="0.0" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="MiscellaneousTransactions" time="0.0" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="SellingNothingStockUnchanged" time="0.0" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="SellingNothingOrderFulfilled" time="0.0" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="SellingEverythingNoStockLeft" time="0.0" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="SellingEverythingOrderFulfilled" time="0.016" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="RestockingAndSellingNothing" time="0.0" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="RestockingWhenAlreadyFull" time="0.0" />
+  <testcase classname="asgn1Solution.TransactionsTest" name="RunningOutOfCashByPayingForEmptyDeliveryTrucks" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
