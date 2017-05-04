@@ -1,1 +1,0 @@
-java -classpath warehouse.jar asgn1Question.Simulation
